@@ -27,7 +27,8 @@ The agent learns **optimal actions** over time by interacting with the environme
 ```sh
 git clone https://github.com/your-username/cartpole-dqn-ai-agent.git
 cd cartpole-dqn-ai-agent
-<br>
+```
+
 ### **2️⃣ Install Dependencies**  
 To install the required dependencies, run:  
 ```sh
