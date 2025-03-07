@@ -27,12 +27,11 @@ The agent learns **optimal actions** over time by interacting with the environme
 ```sh
 git clone https://github.com/your-username/cartpole-dqn-ai-agent.git
 cd cartpole-dqn-ai-agent
-
+<br>
 ### **2️⃣ Install Dependencies**  
 To install the required dependencies, run:  
 ```sh
 pip install -r requirements.txt
-
 <br>
 If you are using Apple M1/M2, install TensorFlow with GPU support:
 
