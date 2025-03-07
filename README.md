@@ -33,16 +33,18 @@ cd cartpole-dqn-ai-agent
 To install the required dependencies, run:  
 ```sh
 pip install -r requirements.txt
-<br>
-If you are using Apple M1/M2, install TensorFlow with GPU support:
+```
+If you are using Apple M1/M2, install TensorFlow with GPU support: <br>
 
 ```sh
 pip install tensorflow-macos tensorflow-metal
+```
 
 ### **3️⃣ Run Training**  
 To train the agent, run:  
 ```sh
 python main.py
+```
 ---
 
 ### 📈 **Training Results**
@@ -53,6 +55,6 @@ Episode 200 | Avg Reward (last 100 eps): 43.13 | Epsilon: 0.367
 Episode 300 | Avg Reward (last 100 eps): 110.69 | Epsilon: 0.222
 Episode 354 | Avg Reward (last 100 eps): 201.86 | Epsilon: 0.170 ✅
 Environment solved in 354 episodes!
-
+```
 Total Training Time: 599.87 s (10.00 min)
 
