@@ -1,4 +1,4 @@
-# **CartPole DQN AI Agent** 🚀  
+# **CartPole DQN AI Agent**   
 
 A **Deep Q-Learning AI Agent** for **CartPole-v1** using **TensorFlow & OpenAI Gym**.  
 The agent learns to balance a pole through **reinforcement learning**, using **experience replay** and **target networks**.  
@@ -11,7 +11,7 @@ The agent learns **optimal actions** over time by interacting with the environme
 
 ---
 
-## **🚀 Features**  
+## **✨ Features**  
 ✔ **Deep Q-Network (DQN) implementation** using TensorFlow  
 ✔ **Experience Replay** to improve learning stability  
 ✔ **Target Q-Network** for better convergence  
