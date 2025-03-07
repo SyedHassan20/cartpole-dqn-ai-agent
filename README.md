@@ -28,21 +28,26 @@ The agent learns **optimal actions** over time by interacting with the environme
 git clone https://github.com/your-username/cartpole-dqn-ai-agent.git
 cd cartpole-dqn-ai-agent
 
-2️⃣ **Install Dependencies**
+### **2️⃣ Install Dependencies**  
+To install the required dependencies, run:  
+```sh
 pip install -r requirements.txt
 
+<br>
 If you are using Apple M1/M2, install TensorFlow with GPU support:
+
+```sh
 pip install tensorflow-macos tensorflow-metal
 
-3️⃣ **Run Training**
-To train the agent, run:
+### **3️⃣ Run Training**  
+To train the agent, run:  
+```sh
 python main.py
-Training logs will display real-time updates. The model is automatically saved once it reaches 200+ average reward.
+---
 
-📈 Training Results
-Your model solved CartPole in just 354 episodes! 🎉
-Below is the actual training progress:
-
+### 📈 **Training Results**
+Below is the training progress:
+```sh
 Episode 100 | Avg Reward (last 100 eps): 17.76 | Epsilon: 0.606
 Episode 200 | Avg Reward (last 100 eps): 43.13 | Epsilon: 0.367
 Episode 300 | Avg Reward (last 100 eps): 110.69 | Epsilon: 0.222
