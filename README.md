@@ -1,22 +1,32 @@
-# **CartPole DQN AI Agent**
-Deep Q-Learning AI Agent for CartPole-v1 using TensorFlow &amp; OpenAI Gym. Trains an agent to balance a pole through reinforcement learning with experience replay and target networks.<br>
+# **CartPole DQN AI Agent** 🚀  
 
-📌 ## **Overview**
-This project demonstrates how to train an AI agent using Deep Q-Learning (DQN) to play CartPole-v1, a classic reinforcement learning environment. The agent learns optimal actions over time by interacting with the environment, storing experiences, and improving its decision-making process through deep learning.
+A **Deep Q-Learning AI Agent** for **CartPole-v1** using **TensorFlow & OpenAI Gym**.  
+The agent learns to balance a pole through **reinforcement learning**, using **experience replay** and **target networks**.  
 
-## **Features**
-✔ Deep Q-Network (DQN) implementation using TensorFlow
-✔ Experience Replay to improve learning stability
-✔ Target Q-Network for better convergence
-✔ Epsilon-Greedy Exploration to balance exploration & exploitation
-✔ Trained model saving & evaluation
-✔ Runs on CPU, GPU, and Apple M1/M2 (TensorFlow-Metal)
+---
 
-🛠 **Installation & Setup**
-1️⃣ Clone the Repository
+## 📌 **Overview**  
+This project demonstrates how to train an **AI agent** using **Deep Q-Learning (DQN)** to play **CartPole-v1**, a classic reinforcement learning environment.  
+The agent learns **optimal actions** over time by interacting with the environment, storing experiences, and improving its decision-making process through deep learning.  
+
+---
+
+## **🚀 Features**  
+✔ **Deep Q-Network (DQN) implementation** using TensorFlow  
+✔ **Experience Replay** to improve learning stability  
+✔ **Target Q-Network** for better convergence  
+✔ **Epsilon-Greedy Exploration** to balance exploration & exploitation  
+✔ **Trained model saving & evaluation**  
+✔ **Runs on CPU, GPU, and Apple M1/M2 (TensorFlow-Metal)**  
+
+---
+
+## 🛠 **Installation & Setup**  
+
+### **1️⃣ Clone the Repository**  
+```sh
 git clone https://github.com/your-username/cartpole-dqn-ai-agent.git
 cd cartpole-dqn-ai-agent
-<br>
 
 2️⃣ **Install Dependencies**
 pip install -r requirements.txt
